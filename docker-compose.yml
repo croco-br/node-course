@@ -15,4 +15,4 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: example
     volumes:
-    - ./cache:/tmp/cache
+    - ./.cache:/tmp/cache
